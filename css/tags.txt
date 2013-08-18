@@ -1,0 +1,86 @@
+Solvents:
+
+	Acetone
+	Alkanes
+	Acetonitrile (MeCN)
+	Benzene
+	Chlorobenzene
+	Borane complexes
+	1,4- dioxane
+	Cyclohexane
+	Diethylether
+	Dimethyl Sulfoxide (DMSO)
+	Dimethylformamide (DMF)
+	Ethyl Acetate
+	Chloroform
+	Hexamethylphosphoramide (HMPA)
+	Nitrobenzene
+	Nitromethane
+	Dichloromethane (DCM)
+	Tetrahydrofuran (THF)
+	Toluene
+	Xylenes
+	Water
+
+Bases:
+
+	pyridine
+	pyrimidine
+	purine
+	alkoxide
+	Grignard reagent (aryl-Mg halides)
+	alkyl lithium
+	phosphazenes
+	sodium azide
+	hydroxide
+
+Acids:
+
+	acetic acid
+	periodic acid
+	hydrofluoric acid
+	sulfuric acid
+	nitric acid 
+	hydrochloric acid
+	perchloric acid
+	carboxylic acids
+	phenol
+	alcohol
+	thiols
+	thiophenols
+	malonic acid
+
+Oxidizing Agents:
+
+	permanganate
+	chromate
+	osmium tertaoxide
+	dichromate
+	peroxides (eg mcPBA)
+	Hydrogen Peroxide
+	ozone
+	iodine
+	bromine
+	IBX
+	Oxygen (O2)
+	Iodozobenzene
+	Hypochlorite
+	Perchlorate
+
+Reducing Agents:
+
+	Lithium Aluminum Hydride
+	Sodium (metal)
+	Lithium (metal)
+	Hydrogen gas (H2)
+	Calcium Hydride
+	Sodium Hydride
+	DIBAL-H
+	Lindlar catalyst
+	Borohydrides
+	Zinc-Mercury Amalgam
+	Ascorbic acid
+	Formic acid
+	Oxalic acid
+	Hydrazine
+	Stryker's reagent

@@ -17,6 +17,7 @@
 	
 	<!-- Latest compiled and minified CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" media="screen">
 	<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic500italic,700italic" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
@@ -25,8 +26,8 @@
 	<script src="js/lib/bootstrap.min.js"></script>
 	<script src="js/lib/modernizr-2.6.2.min.js"></script>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-        
-        
+
+
 </head>
 <body>
 	<!--[if lt IE 7]>
@@ -35,20 +36,89 @@
 
 		<!-- Add your site or application content here -->
 
-		<div id="wrapper">
-		
-		
-		<div class="container-fluid">
-			<div class="jumbotron">
-			    <h1>Hello, world!</h1>
-			    <p>Deddu here, fac-totum developer</p>
-			    <p>
-			    	<a class="btn btn-primary btn-large">Learn more</a>
-			    </p>
-			</div>
+
+		<div id="container wrapper">
+			<section class="section1 intro col-sm-12">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<h1 class="title">Deddu, Here!</h1>
+						<p>Deddu, fac-totum</p>
+						<p>
+							<a class="btn btn-primary btn-large" data-toggle="modal" data-target="#my-modal">Get the shit done</a>
+						</p>
+					</div>
+				</div>
+			</section>
+
+<div class="modal fade" id="my-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Andrea Cadeddu, Ph.D</h4>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Contacts:</p>
+		<p> Mulford st. Evanston, IL</p>
+        <p> mobile: 787 210 5525</p>
+        <p><a href="mailto:andrea.cadeddu@northwestern.edu">andrea.cadeddu@northwestern.edu</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+			<section class="section2 vices-virtues">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="col-sm-5 vices">
+							<p class="lead" >Vices</p>
+							<ul>
+								<li><abbr title="coffee addict"><i class="icon-coffee icon-3x"></i></abbr></li>
+								<li><abbr title="love beers"><i class="icon-beer icon-3x"></i></abbr></li>
+								<li><abbr title="hate facebook"><i class="icon-thumbs-down icon-3x"></i></abbr></li>
+							</ul>
+						</div>
+
+						<div class="col-sm-2 ">
+							<span class="fatand">&</span>
+						</div>
+
+						<div class="col-sm-5 virtues">
+							<p class="lead push-left" >Virtues</p>
+							<ul>
+								<li><abbr title="make it happens"><i class="icon-magic icon-3x"></i></abbr></li>
+								<li><abbr title="real scientist"><i class="icon-beaker icon-3x"></i></abbr></li>
+								<li><abbr title="fast learner"><i class="icon-ok icon-3x"></i></abbr></li>
+							</ul>
+						</div>
+						
+						
+					</div>
+				</div>
+			</section>
+
+<section>
+	<div class="container-fluid">
+		<div class="row-fluid projects">
+			
 		</div>
-		
-	</div> <!-- wrapper -->
-	
+	</div>
+
+</section>
+
+		<div class="footer">			
+			<span class="footer">
+				2013 <i class="icon-info-sign"></i>
+			</span>
+			
+		</div>
+
+
+
+		</div> <!-- wrapper -->
+
 	</body>
 	</html>
