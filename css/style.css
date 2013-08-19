@@ -1,3 +1,5 @@
+
+	/* everyone */
 body {
 	background-image: url("../img/yao-cheng-4.jpg");
 	background-size: cover;
@@ -32,6 +34,10 @@ section{
 .modal-title{
 	font-family: "Droid Serif";
 }
-.modal-body{
-
-}
+/* mobiles */
+	@media (max-width:720px){
+		section {
+			background-color: rgba(255, 255, 255, .6);
+			
+		}
+	}
