@@ -8,7 +8,7 @@ var app = express();
 app.use("/img", express.static(__dirname + '/img'));
 app.use("/js", express.static(__dirname + '/js'));
 app.use("/css", express.static(__dirname + '/css'));
-app.use("/coffee", express.static(__dirname + '/coffee'));
+app.use("/pages", express.static(__dirname + '/pages'));
 app.get('/', function(request, response) {
     fs.readFile("./index.html", function read(err,data){
     if (err ){

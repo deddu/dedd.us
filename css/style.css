@@ -1,7 +1,5 @@
 body {
 	background-image: url("../img/yao-cheng-4.jpg");
-	/*background-repeat:no-repeat;*/
-	/*background-position: top;*/
 	background-size: cover;
 }
 .intro{
@@ -16,45 +14,24 @@ p{
 font-family: "Ubuntu"; 
 	font-size: 1.5em;
 }
-.fatand{
-	font-family: "Droid Serif"; 
-	font-size: +10em;
-	text-align: center;
-}
 section{
 	padding: 2.5% 2.5% 2.5% 2.5%;
-
 }
-.vices-virtues{
-
-	font-family: "Droid Serif"; 
+.market-info li{
+	    list-style-type: none;
+}
+.infos-icon{
 	text-align: center;
-}
-.vices-virtues p {
-	font-size: +3em;
-}
-.vices-virtues li {
-	font-family: "Ubuntu"; 
-	font-size: 1.5em;
-	list-style-type: none;
-}
-.vices-virtues p.lead{
-	font-size: +3em;
-	font-family: "Droid Serif"; 
-}
-.vices{	
-	/*background-image: url("../img/cubes.png");*/
-}
-.virtues{
-
-	/*background-image: url("../img/cubes.png");*/
-}
-.icobtn{
-	text-align: center;
-	color:lightgray;
+	color:darkcyan;
 }
 .footer{
 	font-family: "Ubuntu";
 	text-align: center;
-	color: #333333
+	color: #gray
+}
+.modal-title{
+	font-family: "Droid Serif";
+}
+.modal-body{
+
 }
