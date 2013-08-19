@@ -1,4 +1,5 @@
-var showSkills=function(){
+var showSkills=function(event){
+	event.preventDefault;
 	if (! $('.market-info').hasClass("skills")){
 		$('.market-info').addClass("skills").removeClass("vices projects");
 	$('.market-info').find('section').slideUp().remove();
@@ -10,7 +11,8 @@ var showSkills=function(){
     });}
 	 
 }
-var showVices=function(){
+var showVices=function(event){
+	event.preventDefault;
 	if (! $('.market-info').hasClass("vices")){
 	$('.market-info').addClass("vices").removeClass("skills projects");
 $('.market-info').find('section').slideUp().remove();
@@ -21,7 +23,9 @@ $('.market-info').find('section').slideUp().remove();
     });
 	 }
 }
-var showProjects=function(){
+var showProjects=function(event){
+	event.preventDefault;
+
 	if (! $('.market-info').hasClass("projects")){
 	$('.market-info').addClass("projects").removeClass("skills vices");
 	$('.market-info').find('section').remove();
